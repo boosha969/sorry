@@ -1,0 +1,81 @@
+<!--
+Judul Project : Main Yuk!
+Deskripsi : Main Yuk! adalah sebuah permainan seberapa sayang pacar kita. Main Yuk!
+            dibuat dengan menggunakan Jquery.
+Pembuat : Muhammad Surya Jayadiprana
+Disclaimer : Tolong jangan hapus bagian ini, karena menandakan anda mengsupport
+            developer lokal. Terima kasih
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقدیم به دوست خوبم</title>
+    <meta name="description"
+        content="Permainan sederhana menggunakan Javascript dibuat oleh Muhammad Surya Jayadiprana">
+    <meta name="author" content="Muhammad Surya Jayadiprana | OCHI">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="asset/css/animate.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    
+</head>
+
+<body>
+    <div class="wadah">
+        <div class="box">
+            <button class="btn btn-1 btn-1c" id="tombolPopup">کلیک کن </button>
+            <div id="lope" class="tulisan">
+                <p>این اهنگ رو خیلی دوست دارم سروه بعد از اینکه شنیدیش رو دکمه کلیک  می خوام  گلبتو اکلیلی کنم🙃</p>
+                <a href="./valentines_gift/index.html">
+                    <button class="btn-heart">🥺اماده ای بریم که گلبتو اکلیلی کنم ؟🥺</button>
+                     </a>
+                <!-- <img src="asset/img/love.png" /> -->
+
+            </div>
+            <h3 id="potek" class="tulisan">
+                <img src="asset/img/broken.png" /> این دنیا دیگه ارزش موندن نداره.
+            </h3>
+        </div>
+    </div>
+
+    <!-- Background Shape -->
+    <ul class="bg-bubbles" id="bubble">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- Ujan -->
+    <canvas id="canvas"></canvas>
+
+
+    <!-- Jquery -->
+    <script src="asset/js/jquery-3.5.1.min.js"></script>
+
+    <!-- SweetAlert2-->
+    <script src="asset/js/sweetalert2.all.min.js"></script>
+
+    <!-- Promise Polyfill -->
+    <script src="asset/js/polyfill.min.js"></script>
+
+    <!-- Confetti -->
+    <script src="asset/js/confetti.js"></script>
+
+    <!-- Audio -->
+    <script src="asset/js/jquery.playSound.js"></script>
+
+    <!-- Main -->
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>
